@@ -1,6 +1,6 @@
-# Licença de uso não comercial (CC BY-NC-SA)
+# Licença de uso não comercial (CC BY-NC-SA-4.0)
 
-**Nota:** vide o arquivo `CC-BY-NC-SA.md` com a declaração completa da licença.
+**Nota:** vide o arquivo [`CC-BY-NC-SA-4.0.md`](https://github.com/cfbastarz/teste/blob/main/CC-BY-NC-SA-4.0.md) com a declaração completa da licença.
 
 ## Informações adicionais
 
