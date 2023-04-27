@@ -14,7 +14,7 @@ from matplotlib import pyplot as plt
 
 pn.extension(sizing_mode="stretch_width")
 
-dfs = pk.load(open('data/jo_table_series.pkl', 'rb'))
+dfs = pk.load(open('jo_table_series.pkl', 'rb'))
 
 df_dtc = dfs.df_dtc
 df_bamh_T0 = dfs.df_bamh_T0
