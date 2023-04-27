@@ -63,7 +63,7 @@ from matplotlib import pyplot as plt
 
 pn.extension(sizing_mode="stretch_width")
 
-path = 'pkl/'
+path = './pkl'
 
 dfs = pk.load(open(os.path.join(path,'jo_table_series.pkl'), 'rb'))
 
