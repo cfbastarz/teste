@@ -64,7 +64,7 @@ pn.extension(sizing_mode="stretch_width")
 
 # Lê o arquivo csv
 #custom_date_parser = lambda x: datetime.strptime(x, "%Y-%m-%d %H:%M:%S")
-dfs = pd.read_csv('data/jo_table_series.csv', header=[0, 1], parse_dates=[('df_dtc', 'Date'),('df_bamh_T0', 'Date'),('df_bamh_T4', 'Date'),('df_bamh_GT4AT2', 'Date')])
+dfs = pd.read_csv('teste/data/jo_table_series.csv', header=[0, 1], parse_dates=[('df_dtc', 'Date'),('df_bamh_T0', 'Date'),('df_bamh_T4', 'Date'),('df_bamh_GT4AT2', 'Date')])
 
 df_dtc = dfs.df_dtc
 df_bamh_T0 = dfs.df_bamh_T0
