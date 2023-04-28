@@ -63,28 +63,33 @@ from matplotlib import pyplot as plt
 
 pn.extension(sizing_mode="stretch_width")
 
-#path = './pkl'
+# Lê o arquivo csv
+#custom_date_parser = lambda x: datetime.strptime(x, "%Y-%m-%d %H:%M:%S")
+dfs = pd.read_csv('jo_table_series.csv', header=[0, 1], parse_dates=[('df_dtc', 'Date'),('df_bamh_T0', 'Date'),('df_bamh_T4', 'Date'),('df_bamh_GT4AT2', 'Date')])
 
-#dfs = pk.load(open(os.path.join(path,'jo_table_series.pkl'), 'rb'))
-dfs = pk.load(open('jo_table_series.pkl', 'rb'))
 
 df_dtc = dfs.df_dtc
 df_bamh_T0 = dfs.df_bamh_T0
 df_bamh_T4 = dfs.df_bamh_T4
 df_bamh_GT4AT2 = dfs.df_bamh_GT4AT2
 
+
 df_dtc.name = 'df_dtc'
 df_bamh_T0.name = 'df_bamh_T0'
 df_bamh_T4.name = 'df_bamh_T4'
 df_bamh_GT4AT2.name = 'df_bamh_GT4AT2'
 
+
 experiment_list = [df_dtc, df_bamh_T0, df_bamh_T4, df_bamh_GT4AT2]
 variable_list = ['surface pressure', 'temperature', 'wind', 'moisture', 'gps', 'radiance'] 
-synoptic_time_list = ['00Z', '06Z', '12Z', '18Z', '00Z e 12Z', '06Z e 18Z']
+#attribute_list = ['Nobs', 'Jo', 'Jo/n']
+synoptic_time_list = ['00Z', '06Z', '12Z', '18Z', '00Z e 12Z', '06Z e 18Z']#, '00Z e 06Z', '12Z e 18Z', 'Tudo']
+#iter_fcost_list = ['OMF BEGIN', 'OMF M1 N1', 'OMF M1 N2', 'OMF M2 N1', 'OMF M2 N2', 'OMA BEGIN', 'OMA M1 N1', 'OMA M1 N2', 'OMA M2 N1', 'OMA M2 N2', 'OMA END']
 iter_fcost_list = ['OMF', 'OMF (1st INNER LOOP)', 'OMF (2nd INNER LOOP)', 'OMA (AFTER 1st OUTER LOOP)', 'OMA (1st INNER LOOP)', 'OMA (2nd INNER LOOP)', 'OMA (AFTER 2nd OUTER LOOP)']
 
 experiment = pn.widgets.MultiChoice(name='Experimentos', value=[experiment_list[0].name], options=[i.name for i in experiment_list], solid=False)
 variable = pn.widgets.Select(name='Variável', value=variable_list[0], options=variable_list)
+#attribute = pn.widgets.Select(name='Atributo', value=attribute_list[0], options=attribute_list)
 synoptic_time = pn.widgets.RadioBoxGroup(name='Horário', options=synoptic_time_list, inline=False)
 iter_fcost = pn.widgets.Select(name='Iteração', value=iter_fcost_list[0], options=iter_fcost_list)
 
@@ -292,7 +297,7 @@ pn.Column(
 pn.template.FastListTemplate(
     site="SMNA", title="Dashboard", sidebar=[settings],
     main=[plotNobs, plotJo, plotJon]
-).servable();
+).servable()
 
 
 await write_doc()
