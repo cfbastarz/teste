@@ -13,8 +13,8 @@ from panel_modal import Modal
 import hvplot.xarray
 import hvplot.pandas
 import hvplot as hv
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
+#import cartopy.crs as ccrs
+#import cartopy.feature as cfeature
 
 #pn.extension(sizing_mode='stretch_width')
 
@@ -54,7 +54,7 @@ data = '20230216002023030300'
 burl = 'https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo'
 
 
-# In[7]:
+# In[3]:
 
 
 #%%time
@@ -72,7 +72,7 @@ for reg in Regs:
                 #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks={'time': 1})
 
 
-# In[8]:
+# In[4]:
 
 
 #%%time
@@ -166,10 +166,12 @@ def plotFields(varlev, reg, expe, state, ref):
     else: 
         frame_width=550
   
-    ax = ds[var].hvplot(groupby='time', frame_width=frame_width, cmap=cmap, 
-                             projection=ccrs.PlateCarree(), coastline=True,
-                            title=str(state) + ' - ' + str(nexp_ext))    
+    #ax = ds[var].hvplot(groupby='time', frame_width=frame_width, cmap=cmap, 
+    #                         projection=ccrs.PlateCarree(), coastline=True,
+    #                        title=str(state) + ' - ' + str(nexp_ext))    
 
+    ax = ds[var].hvplot(groupby='time', frame_width=frame_width, cmap=cmap, title=str(state) + ' - ' + str(nexp_ext))     
+    
     return pn.panel(ax, widget_location='bottom')
 
 @pn.depends(statt, expt, varlev, reg, ref)
