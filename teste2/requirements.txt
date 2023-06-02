@@ -1,13 +1,13 @@
-aiohttp
-cartopy
-dask
-fsspec[http]
-holoviews
-hvplot
-pandas
-panel
-panel-modal
-requests
-xarray
-xgrads
-zarr
+aiohttp == 3.8.4
+cartopy == 0.18.0
+dask == 2021.10.0
+fsspec == 2022.5.0
+holoviews == 1.14.9
+hvplot == 0.8.0
+pandas == 1.3.5
+panel == 0.14.3
+panel-modal == 0.2.0
+requests == 2.28.0
+xarray == 0.20.2
+xgrads == 0.2.3
+zarr == 2.12.0
