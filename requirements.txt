@@ -33,3 +33,4 @@ xgrads
 zarr
 requests
 aiohttp
+fsspec[http]
