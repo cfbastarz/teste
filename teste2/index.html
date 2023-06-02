@@ -21,11 +21,16 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="apple-touch-icon" sizes="180x180" href="https://panel.holoviz.org/_static/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://panel.holoviz.org/_static/icons/favicon.ico">
-  <link rel="manifest" href="https://panel.holoviz.org/_static/icons/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+  <link rel="manifest" href="site.webmanifest">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./serviceWorker.js');
+  }
+  </script>
   <script type="module" src="https://cdn.jsdelivr.net/npm/@microsoft/fast-colors@5.3.1/dist/index.js"></script>
   <script type="module" src="https://cdn.jsdelivr.net/npm/@microsoft/fast-components@1.21.8/dist/fast-components.js"></script>
   <script type="text/javascript">
