@@ -1,4 +1,16 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
+dask
+holoviews
+hvplot
+matplotlib
+numpy
+pandas
+panel
+panel-modal
+pip
+python
+xarray
+xgrads
 cartopy
