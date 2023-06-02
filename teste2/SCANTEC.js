@@ -15,7 +15,7 @@ async function startApplication() {
   self.pyodide.globals.set("sendPatch", sendPatch);
   console.log("Loaded!");
   await self.pyodide.loadPackage("micropip");
-  const env_spec = ['https://cdn.holoviz.org/panel/0.14.3/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.3/dist/wheels/panel-0.14.3-py3-none-any.whl', 'pyodide-http==0.1.0', 'aiohttp==3.8.4', 'bokeh==2.4.2', 'cartopy==0.18.0', 'dask==2021.10.0', 'fsspec==2022.5.0', 'holoviews==1.14.9', 'hvplot==0.8.0', 'pandas==1.3.5', 'panel==0.14.3', 'panel-modal==0.2.0', 'requests==2.28.0', 'xarray==0.20.2', 'xgrads==0.2.3', 'zarr==2.12.0']
+  const env_spec = ['https://cdn.holoviz.org/panel/0.14.3/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.3/dist/wheels/panel-0.14.3-py3-none-any.whl', 'pyodide-http==0.1.0', 'aiohttp==3.8.4', 'bokeh==2.4.2', 'cartopy==0.18.0', 'dask==2021.10.0', 'fsspec==2022.5.0', 'holoviews==1.14.9', 'hvplot==0.8.0', 'pandas==1.3.5', 'panel==0.14.3', 'panel-modal==0.2.0', 'tornado==6.2', 'requests==2.28.0', 'xarray==0.20.2', 'xgrads==0.2.3', 'zarr==2.12.0']
   for (const pkg of env_spec) {
     let pkg_name;
     if (pkg.endsWith('.whl')) {
