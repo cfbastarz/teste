@@ -1,0 +1,39 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+cartopy
+cartopy
+cartopy
+cartopy
+cartopy
+cartopy
+cartopy
+dask
+geopandas-base
+geos
+geoviews
+holoviews
+hvplot
+intake
+intake-esm
+intake-xarray
+jupyter
+matplotlib
+nbconvert
+notebook
+numba
+numpy
+pandas
+panel
+panel-modal
+pip
+proj
+pyproj
+python
+python-dateutil
+scipy
+seaborn
+skillmetrics
+xarray
+xgrads
+zarr
