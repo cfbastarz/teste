@@ -2,12 +2,6 @@
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
 cartopy
-cartopy
-cartopy
-cartopy
-cartopy
-cartopy
-cartopy
 dask
 geopandas-base
 geos
@@ -37,3 +31,5 @@ skillmetrics
 xarray
 xgrads
 zarr
+requests
+aiohttp
