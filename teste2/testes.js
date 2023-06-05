@@ -15,7 +15,7 @@ async function startApplication() {
   self.pyodide.globals.set("sendPatch", sendPatch);
   console.log("Loaded!");
   await self.pyodide.loadPackage("micropip");
-  const env_spec = ['https://cdn.holoviz.org/panel/0.14.3/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.3/dist/wheels/panel-0.14.3-py3-none-any.whl', 'pyodide-http==0.1.0', 'holoviews>=1.15.4', 'hvplot', 'numpy', 'pandas', 'xarray']
+  const env_spec = ['https://cdn.holoviz.org/panel/0.14.3/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.3/dist/wheels/panel-0.14.3-py3-none-any.whl', 'pyodide-http==0.1.0', 'holoviews>=1.15.4', 'hvplot', 'numpy', 'pandas', 'xarray', 'zarr']
   for (const pkg of env_spec) {
     let pkg_name;
     if (pkg.endsWith('.whl')) {
@@ -62,6 +62,7 @@ import panel as pn
 import hvplot.xarray
 import hvplot.pandas
 import hvplot as hv
+import zarr
 ##import cartopy.crs as ccrs
 ##import cartopy.feature as cfeature
 
@@ -112,7 +113,7 @@ data = '20230216002023030300'
 burl = 'https://raw.githubusercontent.com/cfbastarz/teste/main/teste2/data/'
 
 
-# In[5]:
+# In[14]:
 
 
 #%%time
@@ -128,7 +129,9 @@ for reg in Regs:
                 #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks='auto')
                 #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks={})
                 #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks={'time': 1})
-                ds_lst[kname] = xr.open_zarr(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), chunks='auto', consolidated=True)
+                #ds_lst[kname] = xr.open_zarr(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), chunks='auto', consolidated=True)
+                store = os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr')
+                ds_lst[kname] = xr.open_zarr(store, chunks='auto', consolidated=True)
 
 
 # In[ ]:
@@ -137,7 +140,7 @@ for reg in Regs:
 #ds_lst['T1_as_VIES_DTC']
 
 
-# In[6]:
+# In[15]:
 
 
 #%%time
@@ -157,7 +160,7 @@ for reg in Regs:
 #df_lst
 
 
-# In[7]:
+# In[16]:
 
 
 #df_gl_T1 = df_lst['T1_gl']
@@ -179,7 +182,7 @@ df_as_T1 = df_lst['T1_as']
 #df_as_T3 = df_lst['T3_as']
 
 
-# In[11]:
+# In[17]:
 
 
 # Constrói as widgets e apresenta o dashboard
