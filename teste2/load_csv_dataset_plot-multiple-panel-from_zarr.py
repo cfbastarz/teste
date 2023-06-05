@@ -19,7 +19,7 @@ import hvplot as hv
 #pn.extension(sizing_mode='stretch_width')
 
 
-# In[2]:
+# In[6]:
 
 
 Vars = [('VTMP:925', 'Temperatura Virtual @ 925 hPa [K]'),
@@ -42,19 +42,24 @@ Vars = [('VTMP:925', 'Temperatura Virtual @ 925 hPa [K]'),
 ('VVEL:500', 'Vento Meridional @ 500 hPa [m/s]'),
 ('VVEL:250', 'Vento Meridional @ 250 hPa [m/s]')]
 
-Regs = ['gl', 'hn', 'tr', 'hs', 'as']
+#Regs = ['gl', 'hn', 'tr', 'hs', 'as']
+Regs = ['as']
 Exps = ['DTC', 'BAMH', 'BAMH0', 'X666']
 StatsE = ['VIES', 'RMSE', 'MEAN']
 StatsT = ['VIES', 'RMSE', 'ACOR']
-Tests = ['T1', 'T2', 'T3']
+#Tests = ['T1', 'T2', 'T3']
+Tests = ['T1']
 Refs = ['Análise GFS', 'Reanálise Era5', 'Própria Análise']
 
 data = '20230216002023030300'
 
-burl = 'https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo'
+#burl = 'https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo'
+#burl = 'https://drive.google.com/drive/folders/1wQhHxzU0yDwxpI55unDVYjTYqSfAqnXh?usp=drive_link'
+#burl = 'https://drive.google.com/drive/folders/1wQhHxzU0yDwxpI55unDVYjTYqSfAqnXh'
+burl = 'https://raw.githubusercontent.com/cfbastarz/teste/main/teste2/data/'
 
 
-# In[3]:
+# In[7]:
 
 
 #%%time
@@ -72,7 +77,13 @@ for reg in Regs:
                 #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks={'time': 1})
 
 
-# In[4]:
+# In[10]:
+
+
+ds_lst
+
+
+# In[8]:
 
 
 #%%time
@@ -86,29 +97,35 @@ for reg in Regs:
         df_lst[kname] = pd.read_csv(os.path.join(burl, test, reg, 'scantec_df_' + test + '_' + reg + '.csv'), index_col=[0,1])
 
 
-# In[5]:
+# In[11]:
 
 
-df_gl_T1 = df_lst['T1_gl']
-df_hn_T1 = df_lst['T1_hn']
-df_tr_T1 = df_lst['T1_tr']
-df_hs_T1 = df_lst['T1_hs']
+df_lst
+
+
+# In[13]:
+
+
+#df_gl_T1 = df_lst['T1_gl']
+#df_hn_T1 = df_lst['T1_hn']
+#df_tr_T1 = df_lst['T1_tr']
+#df_hs_T1 = df_lst['T1_hs']
 df_as_T1 = df_lst['T1_as']
 
-df_gl_T2 = df_lst['T2_gl']
-df_hn_T2 = df_lst['T2_hn']
-df_tr_T2 = df_lst['T2_tr']
-df_hs_T2 = df_lst['T2_hs']
-df_as_T2 = df_lst['T2_as']
+#df_gl_T2 = df_lst['T2_gl']
+#df_hn_T2 = df_lst['T2_hn']
+#df_tr_T2 = df_lst['T2_tr']
+#df_hs_T2 = df_lst['T2_hs']
+#df_as_T2 = df_lst['T2_as']
 
-df_gl_T3 = df_lst['T3_gl']
-df_hn_T3 = df_lst['T3_hn']
-df_tr_T3 = df_lst['T3_tr']
-df_hs_T3 = df_lst['T3_hs']
-df_as_T3 = df_lst['T3_as']
+#df_gl_T3 = df_lst['T3_gl']
+#df_hn_T3 = df_lst['T3_hn']
+#df_tr_T3 = df_lst['T3_tr']
+#df_hs_T3 = df_lst['T3_hs']
+#df_as_T3 = df_lst['T3_as']
 
 
-# In[6]:
+# In[14]:
 
 
 # Constrói as widgets e apresenta o dashboard
