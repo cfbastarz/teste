@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[9]:
+# In[18]:
 
 
 import os
+import fsspec
 import xarray as xr
 import numpy as np
 import pandas as pd
@@ -13,7 +14,6 @@ import panel as pn
 import hvplot.xarray
 import hvplot.pandas
 import hvplot as hv
-import zarr
 ##import cartopy.crs as ccrs
 ##import cartopy.feature as cfeature
 

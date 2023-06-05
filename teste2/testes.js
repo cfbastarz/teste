@@ -15,7 +15,7 @@ async function startApplication() {
   self.pyodide.globals.set("sendPatch", sendPatch);
   console.log("Loaded!");
   await self.pyodide.loadPackage("micropip");
-  const env_spec = ['https://cdn.holoviz.org/panel/0.14.3/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.3/dist/wheels/panel-0.14.3-py3-none-any.whl', 'pyodide-http==0.1.0', 'holoviews>=1.15.4', 'hvplot', 'numpy', 'pandas', 'xarray', 'zarr']
+  const env_spec = ['https://cdn.holoviz.org/panel/0.14.3/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.3/dist/wheels/panel-0.14.3-py3-none-any.whl', 'pyodide-http==0.1.0', 'fsspec', 'holoviews>=1.15.4', 'hvplot', 'numpy', 'pandas', 'xarray']
   for (const pkg of env_spec) {
     let pkg_name;
     if (pkg.endsWith('.whl')) {
@@ -50,10 +50,11 @@ init_doc()
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[9]:
+# In[18]:
 
 
 import os
+import fsspec
 import xarray as xr
 import numpy as np
 import pandas as pd
@@ -62,7 +63,6 @@ import panel as pn
 import hvplot.xarray
 import hvplot.pandas
 import hvplot as hv
-import zarr
 ##import cartopy.crs as ccrs
 ##import cartopy.feature as cfeature
 
