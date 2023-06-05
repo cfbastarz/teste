@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[13]:
 
 
 import os
@@ -16,10 +16,14 @@ import hvplot as hv
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 
+from bokeh.settings import settings
+settings.resources = 'cdn'
+settings.resources = 'inline'
+
 #pn.extension(sizing_mode='stretch_width')
 
 
-# In[2]:
+# In[14]:
 
 
 Vars = [('VTMP:925', 'Temperatura Virtual @ 925 hPa [K]'),
@@ -59,7 +63,7 @@ data = '20230216002023030300'
 burl = 'https://raw.githubusercontent.com/cfbastarz/teste/main/teste2/data/'
 
 
-# In[5]:
+# In[18]:
 
 
 #%%time
@@ -73,18 +77,18 @@ for reg in Regs:
             for test in Tests:
                 kname = test + '_' + reg + '_' + stat + '_' + exp
                 #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks='auto')
-                ds_lst[kname] = xr.open_zarr(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), chunks={'time': 12}, consolidated=True)
                 #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks={})
                 #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks={'time': 1})
+                ds_lst[kname] = xr.open_zarr(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), chunks='auto', consolidated=True)
 
 
-# In[6]:
+# In[20]:
 
 
-ds_lst
+#ds_lst['T1_as_VIES_DTC']
 
 
-# In[7]:
+# In[21]:
 
 
 #%%time
@@ -98,13 +102,13 @@ for reg in Regs:
         df_lst[kname] = pd.read_csv(os.path.join(burl, test, reg, 'scantec_df_' + test + '_' + reg + '.csv'), index_col=[0,1])
 
 
-# In[8]:
+# In[22]:
 
 
-df_lst
+#df_lst
 
 
-# In[9]:
+# In[23]:
 
 
 #df_gl_T1 = df_lst['T1_gl']
@@ -126,7 +130,7 @@ df_as_T1 = df_lst['T1_as']
 #df_as_T3 = df_lst['T3_as']
 
 
-# In[12]:
+# In[24]:
 
 
 # Constrói as widgets e apresenta o dashboard
