@@ -50,30 +50,16 @@ init_doc()
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[13]:
-
-
 import os
 import xarray as xr
 import numpy as np
 import pandas as pd
 import panel as pn
-#from panel_modal import Modal
 import hvplot.xarray
 import hvplot.pandas
 import hvplot as hv
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
-
-from bokeh.settings import settings
-settings.resources = 'cdn'
-settings.resources = 'inline'
-
-#pn.extension(sizing_mode='stretch_width')
-
-
-# In[14]:
-
 
 Vars = [('VTMP:925', 'Temperatura Virtual @ 925 hPa [K]'),
 ('VTMP:850', 'Temperatura Virtual @ 850 hPa [K]'),
@@ -95,54 +81,17 @@ Vars = [('VTMP:925', 'Temperatura Virtual @ 925 hPa [K]'),
 ('VVEL:500', 'Vento Meridional @ 500 hPa [m/s]'),
 ('VVEL:250', 'Vento Meridional @ 250 hPa [m/s]')]
 
-#Regs = ['gl', 'hn', 'tr', 'hs', 'as']
 Regs = ['as']
 Exps = ['DTC', 'BAMH', 'BAMH0', 'X666']
 StatsE = ['VIES', 'RMSE', 'MEAN']
 StatsT = ['VIES', 'RMSE', 'ACOR']
-#Tests = ['T1', 'T2', 'T3']
 Tests = ['T1']
 Refs = ['Análise GFS', 'Reanálise Era5', 'Própria Análise']
 
 data = '20230216002023030300'
 
-#burl = 'https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo'
-#burl = 'https://drive.google.com/drive/folders/1wQhHxzU0yDwxpI55unDVYjTYqSfAqnXh?usp=drive_link'
-#burl = 'https://drive.google.com/drive/folders/1wQhHxzU0yDwxpI55unDVYjTYqSfAqnXh'
 burl = 'https://raw.githubusercontent.com/cfbastarz/teste/main/teste2/data/'
 
-
-# In[18]:
-
-
-#%%time
-
-# Cria um dicionário com todos os arquivos zarr
-ds_lst = {}
-
-for reg in Regs:
-    for exp in Exps:
-        for stat in StatsE:
-            for test in Tests:
-                kname = test + '_' + reg + '_' + stat + '_' + exp
-                #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks='auto')
-                #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks={})
-                #ds_lst[kname] = xr.open_dataset(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), engine='zarr', chunks={'time': 1})
-                ds_lst[kname] = xr.open_zarr(os.path.join(burl, test, reg, stat + exp + '_' + data + 'F.zarr'), chunks='auto', consolidated=True)
-
-
-# In[20]:
-
-
-#ds_lst['T1_as_VIES_DTC']
-
-
-# In[21]:
-
-
-#%%time
-
-# Cria um dicionário com todos os arquivos csv
 df_lst = {}
 
 for reg in Regs:
@@ -151,38 +100,7 @@ for reg in Regs:
         df_lst[kname] = pd.read_csv(os.path.join(burl, test, reg, 'scantec_df_' + test + '_' + reg + '.csv'), index_col=[0,1])
 
 
-# In[22]:
-
-
-#df_lst
-
-
-# In[23]:
-
-
-#df_gl_T1 = df_lst['T1_gl']
-#df_hn_T1 = df_lst['T1_hn']
-#df_tr_T1 = df_lst['T1_tr']
-#df_hs_T1 = df_lst['T1_hs']
 df_as_T1 = df_lst['T1_as']
-
-#df_gl_T2 = df_lst['T2_gl']
-#df_hn_T2 = df_lst['T2_hn']
-#df_tr_T2 = df_lst['T2_tr']
-#df_hs_T2 = df_lst['T2_hs']
-#df_as_T2 = df_lst['T2_as']
-
-#df_gl_T3 = df_lst['T3_gl']
-#df_hn_T3 = df_lst['T3_hn']
-#df_tr_T3 = df_lst['T3_tr']
-#df_hs_T3 = df_lst['T3_hs']
-#df_as_T3 = df_lst['T3_as']
-
-
-# In[24]:
-
-
-# Constrói as widgets e apresenta o dashboard
 
 expt = pn.widgets.MultiChoice(name='Experimentos', value=[Exps[0]], options=Exps, solid=True)
 expe = pn.widgets.Select(name='Experimento', value=Exps[0], options=Exps)
@@ -216,35 +134,6 @@ def getDF(reg, nref):
     if (reg == 'as' and nref == 'T3'): df = df_as_T3
     return df
     
-@pn.depends(varlev, reg, expe, state, ref)
-def plotFields(varlev, reg, expe, state, ref):
-   
-    var = varlev.replace(':', '').lower()
-    
-    for i in Vars:
-        if i[0] == varlev:
-            nexp_ext = i[1]
-    
-    nref = getRef(ref)
-    
-    kname = nref + '_' + reg + '_' + state + '_' + expe
-    ds = globals()['ds_lst'][kname]
-    
-    cmap='tab20c_r'
-    
-    if reg == 'as': 
-        frame_width=500
-    else: 
-        frame_width=550
-  
-    ax = ds[var].hvplot(groupby='time', frame_width=frame_width, cmap=cmap, 
-                             projection=ccrs.PlateCarree(), coastline=True,
-                            title=str(state) + ' - ' + str(nexp_ext))    
-
-    #ax = ds[var].hvplot(groupby='time', frame_width=frame_width, cmap=cmap, title=str(state) + ' - ' + str(nexp_ext))     
-    
-    return pn.panel(ax, widget_location='bottom')
-
 @pn.depends(statt, expt, varlev, reg, ref)
 def plotCurves(statt, expt, varlev, reg, ref):
 
@@ -286,54 +175,6 @@ def plotCurves(statt, expt, varlev, reg, ref):
             
     return ax
 
-#################3
-
-text_info = """
-# SMNA Dashboard - SCANTEC
-
-Visualização da avaliação objetiva das análises e previsões do Sistema de Modelagem Numérica e Assimilação de dados - **SMNA**.
-
-## Experimentos:
-
-* **DTC**: análises e previsões do experimento com o SMNA utilizando a matriz de covariâncias (**B**) do DTC na resolução TQ0299L064 (parâmetros originais dos arquivos \`gsiparm.anl\` e \`anavinfo\`);
-* **BAMH0**: análises e previsões do experimento com o SMNA utilizando a matriz de covariâncias do BAM em coordenada híbrida na resolução TQ0299L064 (parâmetros originais dos arquivos \`gsiparm.anl\` e \`anavinfo\` - exp. **T0**);
-* **BAMH**: análises e previsões do experimento com o SMNA utilizando a matriz de covariâncias do BAM em coordenada híbrida na resolução TQ0299L064 (parâmetros ajustados dos arquivos \`gsiparm.anl\` e \`anavinfo\` - exp. **GT4AT2**);
-* **X666**: análises e previsões do modelo BAM em coordenada híbrida na resolução TQ0666L064.
-
-## Avaliação:
-
-O SCANTEC foi utilizado para a avaliação objetiva dos experimentos com os seguintes ajustes:
-
-* Interpolação de todos os campos atmosféricos para a resolução 0,4 graus (lat/lon);
-* Utilização das seguintes referências:
-    * Análise do GFS (análises pós-processadas em níveis de pressão utilizadas pelo modelo BAM);
-    * Reanálise Era5;
-    * Própria análise (para o modelo BAM - experimento **X666**, devem ser observados os mesmos resultados quando utilizada a análise do GFS como referência).
-* Para o cálculo da correlação de anomalia (**ACOR**), considerou-se a média temporal da referência escolhida como climatologia.
-
----
-
-Atualizado em: 02/06/2023 ([carlos.bastarz@inpe.br](mailto:carlos.bastarz@inpe.br))
-
-"""
-
-#show_text = Modal(pn.panel(text_info, width=850))
-
-#card_info = pn.Column(show_text.param.open, show_text)
-
-#card_parameters = pn.Card('**Geral**', pn.layout.Divider(margin=(-15, 0, 0, 0)),
-#                          varlev, reg, ref, 
-#                          '**Espacial**', pn.layout.Divider(margin=(-15, 0, 0, 0)), 
-#                          state, expe, 
-#                          '**Temporal**', pn.layout.Divider(margin=(-15, 0, 0, 0)), 
-#                          statt, pn.Column(expt, height=240), 
-#                          title='Ajustes', collapsed=False)
-
-#card_parameters = pn.Column('**Informações**', pn.layout.Divider(margin=(-15, 0, 0, 0)), card_info,
-#                          '**Geral**', pn.layout.Divider(margin=(-15, 0, 0, 0)), varlev, reg, ref, 
-#                          '**Espacial**', pn.layout.Divider(margin=(-15, 0, 0, 0)), state, expe, 
-#                          '**Temporal**', pn.layout.Divider(margin=(-15, 0, 0, 0)), statt, pn.Column(expt, height=240))
-
 card_parameters = pn.Column('**Geral**', pn.layout.Divider(margin=(-15, 0, 0, 0)), varlev, reg, ref, 
                           '**Espacial**', pn.layout.Divider(margin=(-15, 0, 0, 0)), state, expe, 
                           '**Temporal**', pn.layout.Divider(margin=(-15, 0, 0, 0)), statt, pn.Column(expt, height=240))
@@ -342,16 +183,8 @@ pn.template.FastListTemplate(
     site='SMNA Dashboard', title='SCANTEC', sidebar=[card_parameters],
     main=['Avaliação objetiva **SMNA**.', 
           pn.Row(pn.Column('###Série Temporal', pn.layout.Divider(margin=(-20, 0, 0, 0)), plotCurves), 
-                 pn.Column('###Distribuição Espacial', pn.layout.Divider(margin=(-20, 0, 0, 0)), plotFields))], 
-#).show();
+                )],
 ).servable();
-
-
-# In[ ]:
-
-
-
-
 
 
 await write_doc()
