@@ -15,7 +15,7 @@ async function startApplication() {
   self.pyodide.globals.set("sendPatch", sendPatch);
   console.log("Loaded!");
   await self.pyodide.loadPackage("micropip");
-  const env_spec = ['https://cdn.holoviz.org/panel/0.14.3/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.3/dist/wheels/panel-0.14.3-py3-none-any.whl', 'pyodide-http==0.1.0', 'cartopy', 'holoviews>=1.15.4', 'hvplot', 'numpy', 'pandas', 'xarray']
+  const env_spec = ['https://cdn.holoviz.org/panel/0.14.3/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.3/dist/wheels/panel-0.14.3-py3-none-any.whl', 'pyodide-http==0.1.0', 'holoviews>=1.15.4', 'hvplot', 'numpy', 'pandas']
   for (const pkg of env_spec) {
     let pkg_name;
     if (pkg.endsWith('.whl')) {
@@ -51,15 +51,11 @@ init_doc()
 # coding: utf-8
 
 import os
-import xarray as xr
 import numpy as np
 import pandas as pd
 import panel as pn
-import hvplot.xarray
 import hvplot.pandas
 import hvplot as hv
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
 
 Vars = [('VTMP:925', 'Temperatura Virtual @ 925 hPa [K]'),
 ('VTMP:850', 'Temperatura Virtual @ 850 hPa [K]'),
@@ -98,7 +94,6 @@ for reg in Regs:
     for test in Tests:
         kname = test + '_' + reg
         df_lst[kname] = pd.read_csv(os.path.join(burl, test, reg, 'scantec_df_' + test + '_' + reg + '.csv'), index_col=[0,1])
-
 
 df_as_T1 = df_lst['T1_as']
 
