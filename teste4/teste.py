@@ -8,17 +8,17 @@ Regs = ['gl', 'hn', 'tr', 'hs', 'as']
 Exps = ['DTC', 'BAMH', 'BAMH0', 'X666']
 Stats = ['VIES', 'RMSE', 'MEAN']
 
-catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/teste/main/teste4/catalog-zarr.yml')
+catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/teste/main/teste4/catalog-csv.yml')
 
 ds1 = catalog.scantec_gl_rmse_dtc.to_dask()
 
-Vars = list(ds1.variables)
-Vars.remove('time')
-Vars.remove('lat')
-Vars.remove('lon')
-
-variable_list = Vars
-variable = pn.widgets.Select(name='Variável', value=variable_list[0], options=variable_list)
+#Vars = list(ds1.variables)
+#Vars.remove('time')
+#Vars.remove('lat')
+#Vars.remove('lon')
+#
+#variable_list = Vars
+#variable = pn.widgets.Select(name='Variável', value=variable_list[0], options=variable_list)
 
 region = pn.widgets.Select(name='Região', value=Regs[0], options=Regs)
 experiment = pn.widgets.Select(name='Experimento', value=Exps[0], options=Exps)
@@ -57,7 +57,7 @@ test = pn.widgets.Select(name='Referência', value=test_list[0], options=test_li
 #    #ax.add_feature(cfeature.BORDERS, linewidth=0.5)
 #    return pn.Column(ax, sizing_mode='stretch_width')
 
-card_parameters = pn.Card(variable, region, experiment, statistic, test, title='Parâmetros', collapsed=False)
+card_parameters = pn.Card(region, experiment, statistic, test, title='Parâmetros', collapsed=False)
 
 settings = pn.Column(card_parameters)
 
