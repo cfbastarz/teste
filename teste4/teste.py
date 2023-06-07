@@ -8,7 +8,7 @@ Regs = ['gl', 'hn', 'tr', 'hs', 'as']
 Exps = ['DTC', 'BAMH', 'BAMH0', 'X666']
 Stats = ['VIES', 'RMSE', 'MEAN']
 
-catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/teste/main/teste3/catalog-zarr.yml')
+catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/teste/main/teste4/catalog-zarr.yml')
 
 ds1 = catalog.scantec_gl_rmse_dtc.to_dask()
 
