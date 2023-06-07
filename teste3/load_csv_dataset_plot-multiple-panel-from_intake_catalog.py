@@ -28,8 +28,9 @@ data = '20230216002023030300'
 
 
 #catalog = intake.open_catalog('http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/old/catalog-zarr.yml')
-catalog = intake.open_catalog('https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/old/catalog-zarr.yml')
+#catalog = intake.open_catalog('https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/old/catalog-zarr.yml')
 #catalog = intake.open_catalog('/extra2/SCANTEC_XC50/SCANTEC-2.1.0/dataout/periodo/old_notebooks/catalog-zarr.yml')
+catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/teste/main/teste3/catalog-zarr.yml')
 
 
 # In[9]:
