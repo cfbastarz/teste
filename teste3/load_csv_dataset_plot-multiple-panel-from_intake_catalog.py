@@ -9,8 +9,8 @@ import xarray as xr
 import hvplot.xarray
 import pandas as pd
 import panel as pn
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
+#import cartopy.crs as ccrs
+#import cartopy.feature as cfeature
 import intake
 
 
@@ -83,9 +83,11 @@ def plotFields(variable, region, experiment, statistic, test):
         frame_width=500
     else: 
         frame_width=960
+    #ax = dfs[variable].hvplot(groupby='time', clim=(cmin, cmax), widget_type='scrubber', widget_location='bottom', 
+    #                          frame_width=frame_width, projection=ccrs.PlateCarree(), coastline=True,
+    #                          cmap=cmap)
     ax = dfs[variable].hvplot(groupby='time', clim=(cmin, cmax), widget_type='scrubber', widget_location='bottom', 
-                              frame_width=frame_width, projection=ccrs.PlateCarree(), coastline=True,
-                              cmap=cmap)
+                              frame_width=frame_width, cmap=cmap)
     #ax.add_feature(cfeature.STATES.with_scale('50m'), zorder=2, linewidth=1.5, edgecolor='b')
     #ax.add_feature(cfeature.BORDERS, linewidth=0.5)
     return pn.Column(ax, sizing_mode='stretch_width')
