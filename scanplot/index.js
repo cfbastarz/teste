@@ -65,8 +65,8 @@ import hvplot.xarray
 import hvplot.pandas
 import hvplot as hv
 import holoviews as hvs
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
+#import cartopy.crs as ccrs
+#import cartopy.feature as cfeature
 
 from datetime import datetime
 from matplotlib import pyplot as plt
@@ -532,7 +532,7 @@ def plotFields(state, varlev_de, reg_de, ref_de, date, colormap_de, invert_color
                                                     data_aspect=data_aspect,
                                                     frame_height=frame_height, 
                                                     cmap=cmap, 
-                                                    projection=ccrs.PlateCarree(), 
+                                                    #projection=ccrs.PlateCarree(), 
                                                     coastline=True,
                                                     rasterize=True,
                                                     clim=(vmin,vmax),
@@ -546,7 +546,7 @@ def plotFields(state, varlev_de, reg_de, ref_de, date, colormap_de, invert_color
                                                       data_aspect=data_aspect,
                                                       frame_height=frame_height, 
                                                       cmap=cmap, 
-                                                      projection=ccrs.PlateCarree(), 
+                                                      #projection=ccrs.PlateCarree(), 
                                                       coastline=True,
                                                       rasterize=True,
                                                       clim=(vmin,vmax),
@@ -562,7 +562,7 @@ def plotFields(state, varlev_de, reg_de, ref_de, date, colormap_de, invert_color
                                                    data_aspect=data_aspect,
                                                    frame_height=frame_height, 
                                                    cmap=cmap, 
-                                                   projection=ccrs.PlateCarree(), 
+                                                   #projection=ccrs.PlateCarree(), 
                                                    coastline=True,
                                                    clim=(vmin,vmax),
                                                    colorbar=True,
@@ -625,7 +625,7 @@ def plotFieldsDouble(state, varlev_ded, reg_ded, ref_ded, date, colormap_ded, in
                                                                               data_aspect=data_aspect,
                                                                               frame_height=frame_height, 
                                                                               cmap=cmap, 
-                                                                              projection=ccrs.PlateCarree(), 
+                                                                              #projection=ccrs.PlateCarree(), 
                                                                               coastline=True,
                                                                               rasterize=True,
                                                                               colorbar=True,
@@ -640,7 +640,7 @@ def plotFieldsDouble(state, varlev_ded, reg_ded, ref_ded, date, colormap_ded, in
                                                                                 data_aspect=data_aspect,
                                                                                 frame_height=frame_height, 
                                                                                 cmap=cmap, 
-                                                                                projection=ccrs.PlateCarree(), 
+                                                                                #projection=ccrs.PlateCarree(), 
                                                                                 coastline=True,
                                                                                 rasterize=True,
                                                                                 clim=(vmin,vmax),
@@ -657,7 +657,7 @@ def plotFieldsDouble(state, varlev_ded, reg_ded, ref_ded, date, colormap_ded, in
                                                   data_aspect=data_aspect,
                                                   frame_height=frame_height, 
                                                   cmap=cmap, 
-                                                  projection=ccrs.PlateCarree(), 
+                                                  #projection=ccrs.PlateCarree(), 
                                                   coastline=True,
                                                   rasterize=True,
                                                   colorbar=True,
@@ -670,7 +670,7 @@ def plotFieldsDouble(state, varlev_ded, reg_ded, ref_ded, date, colormap_ded, in
                                                   data_aspect=data_aspect,
                                                   frame_height=frame_height, 
                                                   cmap=cmap, 
-                                                  projection=ccrs.PlateCarree(), 
+                                                  #projection=ccrs.PlateCarree(), 
                                                   coastline=True,
                                                   rasterize=True,
                                                   colorbar=True,   
@@ -685,7 +685,7 @@ def plotFieldsDouble(state, varlev_ded, reg_ded, ref_ded, date, colormap_ded, in
                                                     data_aspect=data_aspect,
                                                     frame_height=frame_height, 
                                                     cmap=cmap, 
-                                                    projection=ccrs.PlateCarree(), 
+                                                    #projection=ccrs.PlateCarree(), 
                                                     coastline=True,
                                                     rasterize=True,
                                                     clim=(vmin,vmax),
@@ -699,7 +699,7 @@ def plotFieldsDouble(state, varlev_ded, reg_ded, ref_ded, date, colormap_ded, in
                                                     data_aspect=data_aspect,
                                                     frame_height=frame_height, 
                                                     cmap=cmap, 
-                                                    projection=ccrs.PlateCarree(), 
+                                                    #projection=ccrs.PlateCarree(), 
                                                     coastline=True,
                                                     rasterize=True,
                                                     clim=(vmin,vmax),
@@ -724,34 +724,6 @@ def plotFieldsDouble(state, varlev_ded, reg_ded, ref_ded, date, colormap_ded, in
     
 #######
 
-@pn.depends(state, varlev_de, reg_de, ref_de, date, expt1)
-def plotSeriesFromField(state, varlev_de, reg_de, ref_de, date, expt1):
-
-    var = varlev_de.replace(':', '').lower()
-    
-    kname = 'scantec_' + reg_de + '_' + state.lower() + '_' + expt1.lower() + '-' + ref_de + '-field'
-    dsv = ds_catalog['scantec_gl_rmse_exp18-ref_era5_no_clim-field'].to_dask()
-
-    source = dsv.isel(time=0).hvplot.image(x='lon',
-                                           y='lat',
-                                           z=var,
-                                           geo=True,
-                                           projection=ccrs.PlateCarree(),
-                                           title=str(state) + ' - ' + str(expt1) + ' (' + str(date) + ')')
-    
-    map_file = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
-
-    map_overlay = map_file.hvplot(geo=True, projection=ccrs.PlateCarree(), alpha=0.1)
-    
-    stream = hvs.streams.Tap(source=source, x=-88 + 360, y=40)
-    
-    def create_timeseries(x, y):
-        ds_sel = dsv.sel(lon=x, lat=y, method='nearest')
-        return hvs.Curve(ds_sel, ['time'], [var])
-    
-    target = hvs.DynamicMap(create_timeseries, streams=[stream]).opts(framewise=True, height=380, responsive=True)#, min_width=700)
-    
-    return pn.Row(source * map_overlay + target, sizing_mode='stretch_width')
     
 #######
 
