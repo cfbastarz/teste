@@ -755,163 +755,6 @@ def plotSeriesFromField(state, varlev_de, reg_de, ref_de, date, expt1):
     
 #######
 
-# Mensagens
-
-text_gen_info = """
-# SCANPLOT
-
-SCANPLOT - Um sistema de visualização simples para o SCANTEC.
-
-## Experimentos:
-
-* **EXP18**: análises e previsões do experimento com o SMNA em coordenada híbrida na resolução TQ0299L064;
-* **X666**: análises e previsões do modelo BAM em coordenada híbrida na resolução TQ0666L064.
-
-## Validade:
-
-Os experimentos foram considerados para o período de 2023021612 a 2023030312.
-
-## Avaliação:
-
-O SCANTEC foi utilizado para a avaliação objetiva dos experimentos com os seguintes ajustes:
-
-* Interpolação de todos os campos atmosféricos para a resolução 0,4 graus (lat/lon);
-* Utilização das seguintes referências:
-    * \`ref_era5_no_clim\`: utilização das reanálises do Era5 como referência e considerando a média temporal desta referência como climatologia para o cálculo do Coeficiente de Correlação de Anomalias;
-    * \`ref_era5_no_clim\`: utilização das próprias análises dos experimentos como referência e considerando a média temporal desta referência como climatologia para o cálculo do Coeficiente de Correlação de Anomalias;
-    * \`ref_era5_cfsr_clim\` utilização das próprias análses dos experimentos como referência e utilização da reanálise do CFSR como climatologia para o cálculo do Coeficiente de Correlação de Anomalias;
-    * \`ref_era5_agcm_clim\` utilização das próprias análses dos experimentos como referência e utilização da climatologia do antigo MCGA para o cálculo do Coeficiente de Correlação de Anomalias. 
-
----
-
-Atualizado em: 29/06/2023 ([carlos.bastarz@inpe.br](mailto:carlos.bastarz@inpe.br))
-"""
-
-text_vies1 = """
-# Viés 
-
-Para uma variável _alpha_ (e.g., pressão, temperatura, umidade, componentes do vento etc.), discretizada em uma grade de _N_ pontos (com dimensões _i_ e _j_ - longitude e latitude, respectivamente, onde _N_ = _i_ x _j_), o Viés é calculado de acordo com a equação a seguir:
-"""
-
-text_vies2 = """
-onde,
-
-* 
-* 
-* 
-"""
-
-text_rmse1 = """
-# Raiz do Erro Quadrático Médio
-
-Para uma variável _alpha_ (e.g., pressão, temperatura, umidade, componentes do vento etc.), discretizada em uma grade de _N_ pontos (com dimensões _i_ e _j_ - longitude e latitude, respectivamente, onde _N_ = _i_ x _j_), a Raiz do Erro Quadrático Médio é calculada de acordo com a equação a seguir:
-"""
-
-text_rmse2 = """
-onde,
-
-* 
-* 
-* 
-"""
-
-text_acor1 = """
-# Coeficiente de Correlação de Anomalias
-
-O Coeficiente de Correlação de Anomalias é calculado de acordo com a equação a seguir:
-"""
-
-text_acor2 = """
-onde,
-
-* 
-* 
-* 
-"""
-
-text_scor1 ="""
-# Scorecard
-
-Para uma variável alpha (e.g., pressão, temperatura, umidade, componentes do vento etc.), podem ser calculadas duas métricas que permitem quantificar a variação relativa entre dois experimentos avaliados pelo SCANTEC. As métricas aplicadas são o Ganho Percentual e a Mudança Fracional* e ambas podem ser calculadas com base nas tabelas de estatisticas do SCANTEC. Estas métricas podem ser utilizadas quando se quiser ter uma visão imediata sobre as melhorias obtidas entre duas versões de um modelo ou entre dois experimentos de um mesmo modelo.
-
-O Ganho Percentual é definido por:
-"""
-
-text_scor2 ="""
-onde,
-
-* E1: tabelas do experimento 1;
-* E2: tabelas do experimento 2;
-* EP: experimento 'perfeito' (valor considerado quando o experimento é perfeito, ie., 0 quando Viés ou RMSE e 1 quando ACOR).
-
-A Mudança Fracional é definida por:
-"""
-
-text_scor3 ="""
-onde,
-
-* E1: tabelas do experimento 1;
-* E2: tabelas do experimento 2;
-* EP: experimento 'perfeito' (valor considerado quando o experimento é perfeito, ie., 0 quando Viés ou RMSE e 1 quando ACOR).
-
----
-*[BAÑOS, I. H.](http://lattes.cnpq.br/6820161737155390); et al. **Impacto da Assimilação de Perfis de Refratividade do  Satélite Metop-B nas Previsões de Tempo do CPTEC/INPE Durante os Meses de Janeiro e Agosto de 2014.** Disponível em [link](https://www.scielo.br/scielo.php?script=sci_arttext&pid=S0102-77862018000100065).
-"""  
-
-eq_ganho = pn.pane.Markdown(r'$$GP(\alpha) = \frac{E2 - E1}{EP - E1} \times 100$$')
-eq_mf = pn.pane.Markdown(r'$$MF(\alpha) = 1 - \frac{E2}{E1}$$')
-eq_vies = pn.pane.Markdown(r'$$REQM(\alpha) = \frac{1}{N}\sum_{n=1}^{N}\bigg[ \frac{1}{I \cdot J}\sum_{i=1}^{I}\sum_{j=1}^{J}(\alpha_{i,j,n}^{P} - \alpha_{i,j,n}^{O})^{2} \bigg]^\frac{1}{2}$$')
-eq_rmse = pn.pane.Markdown(r'$$REQM(\alpha) = \frac{1}{N}\sum_{n=1}^{N}\bigg[ \frac{1}{I \cdot J}\sum_{i=1}^{I}\sum_{j=1}^{J}(\alpha_{i,j,n}^{P} - \alpha_{i,j,n}^{O})^{2} \bigg]^\frac{1}{2}$$')
-eq_cca = pn.pane.Markdown(r'$$CCA(\alpha) = \frac{\sum\limits_{i=1}^{I}\sum\limits_{j=1}^{J}\big[ (\alpha_{i,j}^{P} - \alpha_{i,j}^{C})\cdot(\alpha_{i,j}^{A} - \alpha_{i,j}^{C}) \big]}{\bigg \lbrace \bigg[ \sum\limits_{i=1}^{I}\sum\limits_{j=1}^{J}(\alpha_{i,j}^{P} - \alpha_{i,j}^{C})^2 \bigg] \bigg[ \sum\limits_{i=1}^{I}\sum\limits_{j=1}^{J}(\alpha_{i,j}^{A} - \alpha_{i,j}^{C})^2 \bigg] \bigg \rbrace ^\frac{1}{2}}$$')
-
-text_st = """
-# Série Temporal
-
-A avaliação por meio de série temporal permite verificar o comportamento de parâmetros (variáveis) do modelo ao longo do tempo, seja por meio da verificação dos erros aleatórios, sistemáticos e habilidade de previsão.
-"""
-
-text_sc = """
-# Scorecard
-
-A avaliação por meio de scorecards permite obter uma visão geral do comportamento de parâmetros (variáveis) do modelo ao longo do tempo.
-"""
-
-text_ded = """
-# Distribuição Espacial
-
-A avaliação por meio da distribuição espacial permite verificar o comportamento de parêmetros (variáveis) do modelo ao longo do tempo, seja por meio da verificação dos erros aleatórios, sistemáticos e habilidade de previsão.
-"""
-
-text_help = """
-# Ajuda
-
-Clique sobre as abas \`Série Temporal\`, \`Scorecard\` ou \`Distribuição Espacial\` para acessar as opções de plotagem e visualização das estatísticas calculadas.
-Cada tipo de visualização possui opções diferentes e independentes para a realização das plotagens. Utilize as opções para fazer os ajustes necessários.
-"""
-
-welcomeText = """
-# Bem-vindo!
-
-Este é o SCANPLOT - Um sistema simples de plotagem para o SCANTEC. O SCANTEC - Sistema Comunitário de Avaliação de modelos Numéricos de Tempo E Clima, é um sistema desenvolvido
-para a avaliação de modelos numéricos de previsão e clima em uso no CPTEC - Centro de Previsão de Tempo e Estudos Climáticos. O SCANPLOT foi desenvolvido para uso exclusivo com 
-o SCANTEC, devido as suas particularidades de desenvolvimento e aplicação.
-"""
-
-text_fu = """
-# Selecionar catálogo
-
-Clique no botão \`Escolher arquivo...\` e selecione o arquivo de catálogo \`.yml\` com os resultados da avaliação realizada pelo SCANTEC.
-"""
-
-text_float_panel = """
-# SCANPLOT V2.0.0a1
-
-SCANPLOT - Um sistema de visualização simples para o SCANTEC.
-
----
-
-CPTEC-INPE, 2023.
-"""
 
 # Dashboard 
 
@@ -932,7 +775,7 @@ config = {'headerControls':
 
 float_panel = pn.layout.FloatPanel(
     pn.Tabs(('Sobre',
-    pn.Row(text_float_panel, scantec_logo)),
+    pn.Row('Texto', scantec_logo)),
            ('Reportar Bugs', 'Encontrou um bug? Abra uma issue no [GitHub do projeto](https://github.com/GAM-DIMNT-CPTEC/SCANPLOT/issues) ou envie um email para [carlos.bastarz@inpe.br](mailto:carlos.bastarz@inpe.br).'),
            ('Contribuir', 'Quer contribuir com o desenvolvimento do SCANPLOT? Envie um email para [carlos.bastarz@inpe.br](mailto:carlos.bastarz@inpe.br).'),
            ), 
@@ -981,20 +824,20 @@ tabs.append(('Distribuição Espacial', plotFieldsDouble))
 # Atualiza o conteúdo da barra lateral de acordo com a aba ativa (utiliza o conteúdo da primeira aba no início)
 #col = pn.Column(card_parameters_fu)
 col = pn.Column(card_parameters_st)
-text_info1 = pn.Column(text_gen_info)
-text_info2 = pn.Column(text_st)
+text_info1 = pn.Column('Texto')
+text_info2 = pn.Column('Texto')
 
 @pn.depends(tabs.param.active, watch=True)
 def insert_widget(active_tab):
     if active_tab == 0: 
         col[0] = card_parameters_st
-        text_info2[0] = text_st
+        text_info2[0] = pn.Column('Texto')
     elif active_tab == 1: 
         col[0] = card_parameters_sc    
-        text_info2[0] = text_sc
+        text_info2[0] = pn.Column('Texto')
     elif active_tab == 2: 
         col[0] = card_parameters_ded
-        text_info2[0] = text_ded
+        text_info2[0] = pn.Column('Texto')
         
 def show_modal_1(event):
     template.modal[0].clear()
@@ -1018,7 +861,7 @@ def show_modal_3(event):
 
 def show_modal_4(event):
     template.modal[0].clear()
-    template.modal[0].append(pn.Column(text_help))
+    template.modal[0].append(pn.Column('Texto'))
     template.open_modal()    
     
 show_color_pallete.on_click(show_modal_3)    
