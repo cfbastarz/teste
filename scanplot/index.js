@@ -114,10 +114,11 @@ date_range = '20191115122020020100'
 
 
 # Download dos catálogos a partir do script (catálogos locais com dados remotos)
-url = 'https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/catalog-scantec-s0.yml'
-r = requests.get(url, allow_redirects=True)
-open('catalog-scantec-s0.yml', 'wb').write(r.content)
-ds_catalog = intake.open_catalog('catalog-scantec-s0.yml')
+#url = 'https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/catalog-scantec-s0.yml'
+#r = requests.get(url, allow_redirects=True)
+#open('catalog-scantec-s0.yml', 'wb').write(r.content)
+#ds_catalog = intake.open_catalog('catalog-scantec-s0.yml')
+ds_catalog = intake.open_catalog('https://raw.githubusercontent.com/cfbastarz/teste/2141e80e6ff9713b7c89b25056deed9ca0fbc0d4/scanplot/catalog-scantec-s0.yml')
 
 colormaps = ['Accent',  'Blues',  'BrBG',  'BuGn',  'BuPu',  'CMRmap',  'Dark2',  'GnBu', 
              'Greens',  'Greys',  'OrRd',  'Oranges',  'PRGn',  'Paired',  'Pastel1', 
