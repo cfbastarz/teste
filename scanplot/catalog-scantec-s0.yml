@@ -1,0 +1,4200 @@
+sources:
+
+  scantec_gl_acor_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_acor_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_acor_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_acor_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_acor_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_acor_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_acor_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_acor_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_acor_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_acor_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_acor_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_acor_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_acor_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_acor_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_acor_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_acor_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_acor_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_acor_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_acor_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_acor_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/ACOREXP18_20191115122020020100T.csv
+    description: Anomaly Correlation for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/RMSEEXP18_20191115122020020100T.csv
+    description: Root Mean Square Error for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_exp18-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_exp18-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_exp18-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_exp18-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/VIESEXP18_20191115122020020100T.csv
+    description: Bias for the EXP18 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_acor_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_acor_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_acor_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_acor_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_acor_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_acor_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_acor_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_acor_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_acor_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_acor_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_acor_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_acor_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_acor_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_acor_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_acor_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_acor_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_acor_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_acor_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_acor_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_acor_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/ACORX666_20191115122020020100T.csv
+    description: Anomaly Correlation for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/RMSEX666_20191115122020020100T.csv
+    description: Root Mean Square Error for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_x666-ref_era5_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_x666-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_x666-ref_panl_cfsr_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_x666-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/VIESX666_20191115122020020100T.csv
+    description: Bias for the X666 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - table
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+  scantec_gl_rmse_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_mean_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_mean_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_mean_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_mean_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_mean_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_mean_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_mean_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_mean_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_mean_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_mean_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_mean_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_mean_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_mean_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_mean_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_mean_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_mean_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/RMSEEXP18_20191115122020020100F.zarr
+    description: Root Mean Square Error for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_mean_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_mean_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_mean_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_mean_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/MEANEXP18_20191115122020020100F.zarr
+    description: Mean Error for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_exp18-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_exp18-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_exp18-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_exp18-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/VIESEXP18_20191115122020020100F.zarr
+    description: Bias for the EXP18 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_rmse_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_mean_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_mean_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_mean_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_mean_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/gl/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/gl/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/gl/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_gl_vies_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/gl/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (gl area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_rmse_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_mean_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_mean_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_mean_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_mean_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hn/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hn/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hn/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hn_vies_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hn/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (hn area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_rmse_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_mean_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_mean_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_mean_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_mean_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/tr/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/tr/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/tr/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_tr_vies_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/tr/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (tr area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_rmse_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_mean_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_mean_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_mean_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_mean_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/hs/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/hs/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/hs/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_hs_vies_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/hs/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (hs area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_rmse_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/RMSEX666_20191115122020020100F.zarr
+    description: Root Mean Square Error for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_mean_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_mean_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_mean_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_mean_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/MEANX666_20191115122020020100F.zarr
+    description: Mean Error for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_x666-ref_era5_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_era5_no_clim/as/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_era5_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_x666-ref_panl_no_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_no_clim/as/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_no_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_x666-ref_panl_cfsr_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_cfsr_clim/as/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_cfsr_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
+
+  scantec_as_vies_x666-ref_panl_agcm_clim-field:
+    args:
+      consolidated: true
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18/ref_panl_agcm_clim/as/VIESX666_20191115122020020100F.zarr
+    description: Bias for the X666 experiment (as area)
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+        - ref_panl_agcm_clim
+        - field
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/EXP18
+
