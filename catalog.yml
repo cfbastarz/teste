@@ -1,0 +1,48 @@
+sources:
+
+  test-gl-acor-exp15-ref_panl_agcm_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1/ref_panl_agcm_clim/gl/ACOREXP15_20191115122020020212T.csv
+    description: Anomaly Correlation for the EXP15 experiment (gl area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1
+
+
+  test-hn-acor-exp15-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1/ref_panl_no_clim/hn/ACOREXP15_20191115122020020212T.csv
+    description: Anomaly Correlation for the EXP15 experiment (hn area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1
+
+  test-tr-acor-exp15-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1/ref_panl_no_clim/tr/ACOREXP15_20191115122020020212T.csv
+    description: Anomaly Correlation for the EXP15 experiment (tr area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1
+
+
+  test-hs-acor-exp15-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1/ref_panl_no_clim/hs/ACOREXP15_20191115122020020212T.csv
+    description: Anomaly Correlation for the EXP15 experiment (hs area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1
+
+  test-as-acor-exp15-ref_panl_no_clim-table:
+    args:
+      urlpath: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1/ref_panl_no_clim/as/ACOREXP15_20191115122020020212T.csv
+    description: Anomaly Correlation for the EXP15 experiment (as area)
+    driver: csv
+    metadata:
+      catalog_dir: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1
+      url: https://s0.cptec.inpe.br/pesquisa/das/dist/carlos.bastarz/SCANTEC-2.1.0/dataout/periodo/AVAL_SMNA_V2.3.1
