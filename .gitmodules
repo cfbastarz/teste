@@ -1,0 +1,3 @@
+[submodule "NCEPLIBS-bacio"]
+	path = NCEPLIBS-bacio
+	url = https://github.com/NOAA-EMC/NCEPLIBS-bacio.git
